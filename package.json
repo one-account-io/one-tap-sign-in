@@ -1,0 +1,21 @@
+{
+  "name": "one-tap-sign-in",
+  "version": "1.0.0",
+  "description": "Frontend library for One Account authentication.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one-account-io/one-tap-sign-in.git"
+  },
+  "keywords": [
+    "one-account",
+    "sign-in",
+    "authentication"
+  ],
+  "author": "Tim Tisak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/one-account-io/one-tap-sign-in/issues"
+  },
+  "homepage": "https://github.com/one-account-io/one-tap-sign-in#readme"
+}
