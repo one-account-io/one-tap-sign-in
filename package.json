@@ -1,6 +1,6 @@
 {
-  "name": "one-tap-sign-in",
-  "version": "1.0.0",
+  "name": "@one-account/one-tap-sign-in",
+  "version": "1.0.1",
   "description": "Frontend library for One Account authentication.",
   "main": "index.js",
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/one-account-io/one-tap-sign-in/issues"
   },
-  "homepage": "https://github.com/one-account-io/one-tap-sign-in#readme"
+  "homepage": "https://github.com/one-account-io/one-tap-sign-in#readme",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
