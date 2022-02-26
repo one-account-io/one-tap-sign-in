@@ -7,6 +7,7 @@ function showOneAccountOneTapSignIn({
   scope = 'openid 1a.fullname.view 1a.email.view 1a.profilepicture.view',
   includeGrantedScopes = true,
 }) {
+  if (document.querySelector('#one-account-one-tap-sign-in')) return;
   document.body.innerHTML += `<iframe
                                 title="One Account"
                                 id="one-account-one-tap-sign-in"
