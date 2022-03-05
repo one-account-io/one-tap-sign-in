@@ -1,0 +1,12 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": true,
+  "semi": true,
+  "trailingComma": "es5",
+  "printWidth": 128,
+  "arrowParens": "always",
+  "importOrder": ["/((config)|(pool))$", "[Ss]ervice", "model", "utils", "middleware", "types", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
