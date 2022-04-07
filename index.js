@@ -16,7 +16,7 @@ class OneAccountOneTapSignIn {
     codeVerifier,
     codeChallenge,
     codeChallengeMethod = 'S256',
-    saveCodeVerifier = false,
+    saveCodeVerifier = true,
   } = {}) {
     if (this.isVisible || document.getElementById('one-account-one-tap-sign-in')) return;
     this.isVisible = true;
@@ -52,6 +52,7 @@ class OneAccountOneTapSignIn {
   hide() {
     this.isVisible = false;
     const element = document.getElementById('one-account-one-tap-sign-in');
+    if (!element) return;
     element.parentNode.removeChild(element);
   }
 
@@ -103,4 +104,6 @@ class OneAccountOneTapSignIn {
   }
 }
 
-export default new OneAccountOneTapSignIn();
+const oneAccountOneTapSignIn = new OneAccountOneTapSignIn();
+window.OneAccountOneTapSignIn = oneAccountOneTapSignIn;
+export default oneAccountOneTapSignIn;
